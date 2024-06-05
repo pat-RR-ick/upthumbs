@@ -28,7 +28,7 @@ export const app = new Frog({
   })
 );
 
-// Cast action GET handler
+// Cast action GET handler.
 app.hono.get("/upthumb", async (c) => {
   return c.json({
     name: "Upthumb",
